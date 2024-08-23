@@ -1,4 +1,4 @@
-# ORACLE NEXT EDUCATION - DESAFÍO: ENCRIPTADOR DE TEXTO.
+# DESAFÍO: ENCRIPTADOR DE TEXTO.
 
 ¡Bienvenidas y bienvenidos a nuestro primer desafío!
 
