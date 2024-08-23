@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Encriptador de Texto. Online</title>
+  </head>
+  <body>
+    <!-- ENCABEZADO -->
+
+    <header>
+      <a href="#">
+        <img src="./assets/logo.svg" alt="alura-logo" class="logo-principal" />
+      </a>
+    </header>
+
+    <!-- SECCIÓN MAIN O DE ENCRIPTADO DE TEXTO -->
+
+    <main>
+      <div class="article-seccion">
+        <section class="modulo-encriptador">
+          <textarea
+            class="textarea-encriptar"
+            placeholder="Ingrese el texto aquí..."
+          ></textarea>
+          <div class="contenedor-aviso">
+            <img
+              src="./assets/aviso.svg"
+              alt="aviso-imagen"
+              class="imagen-aviso"
+            />
+            <p class="texto-aviso">Sólo letras minúsculas y sin acentos...</p>
+          </div>
+          <div class="contenedor-botones">
+            <button type="submit" class="boton-encriptar">Encriptar</button>
+            <button type="submit" class="boton-desencriptar">
+              Desencriptar
+            </button>
+          </div>
+        </section>
+        <section class="modulo-texto">
+          <div class="contenedor-tarjeta">
+            <img
+              src="./assets/muñeco.svg"
+              alt="muñeco-tarjeta"
+              class="imagen-muñeco"
+            />
+            <p class="mensaje-primario">Ningún mensaje fue encontrado</p>
+            <p class="mensaje-secundario">
+              Ingresa el texto que desees encriptar o desencriptar.
+            </p>
+          </div>
+
+          <textarea type="mensaje" class="textarea-evaluar" readonly></textarea>
+          <button type="submit" class="boton-copiar">Copiar Texto</button>
+        </section>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <p class="derechos-autor">
+        &copy; 2024 Oracle Next Education. Todos los derechos reservados.
+        Encriptador Online
+      </p>
+
+      <a href="https://www.linkedin.com/in/kevinsalamanca12/" target="_blank">
+        <img
+          src="./assets/linkedin.svg"
+          alt="linkedin-logo"
+          class="icono-linkedin"
+        />
+      </a>
+
+      <a href="https://github.com/KhaliRasbajus" target="_blank">
+        <img src="./assets/github.svg" alt="github-logo" class="icono-github" />
+      </a>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
